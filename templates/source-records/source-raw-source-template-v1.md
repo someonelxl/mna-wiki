@@ -9,6 +9,7 @@
 - AI 和人应如何围绕这两层协同工作
 
 本文件属于模板层文档，应受《项目总需求定位 v2.0》《系统设计文档 v1.0》《Rulebook 初稿 v0.1》约束。
+Source Record 与 Raw Source 的对象编号、文件名、页面标题应遵循 `rules/standards/object-naming-standard-v0-1.md`。
 
 ## 2. Source / Raw Source 模板的作用
 Source / Raw Source 模板的作用有五个：
@@ -22,6 +23,7 @@ Source / Raw Source 模板的作用有五个：
 ### 3.1 Raw Source
 Raw Source 是原始资料的文本化承载层。
 它属于 `raw-sources/`，是 source of truth 的可读层之一。
+正式目录落点为：`raw-sources/`
 它的任务是：
 - 保存原始可读资料
 - 尽量保持原始性
@@ -31,6 +33,7 @@ Raw Source 是原始资料的文本化承载层。
 ### 3.2 Source Record
 Source Record 是来源记录页。
 它属于 Wiki 侧的记录层对象，不等于原始资料本身。
+正式目录落点为：`wiki/sources/`
 它的任务是：
 - 记录这个来源是什么
 - 记录它来自哪里
@@ -79,6 +82,7 @@ AI 可以先整理 Source Record 的首版，但：
 ### 作用
 让系统知道这份 raw source 是什么。
 ### 至少应明确的信息
+- `raw_source_id`
 - 来源标题
 - 来源类型
 - 原始出处
