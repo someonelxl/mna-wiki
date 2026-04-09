@@ -1,12 +1,12 @@
 # 并购视频 Wiki 项目
 
-本目录是“个人并购 Wiki 项目”的正式项目根目录。
+本目录是“并购视频 Wiki 项目”的正式项目根目录。
 该项目以并购案例为核心，服务于研究、知识沉淀与内容生产。
 当前目录结构遵循总需求定位文档与 Karpathy Wiki 方法进行组织。
 
 ## 建议先阅读
-- `docs/00-foundation/project-positioning-v2.md`：项目总需求定位文档
-- `docs/00-foundation/naming-rulebook-v1.md`：命名规范总纲
+- `docs/foundation/project-positioning-v2.md`：项目总需求定位文档
+- `docs/foundation/naming-rulebook-v1.md`：命名规范总纲
 
 ## 当前目录结构遵循以下原则
 - 以总需求定位文档作为最高方向约束
@@ -18,7 +18,7 @@
 - `rules/`：放规则文档与结构约束，对应 rulebook / schema 层
 - `templates/`：放标准模板，用于统一页面骨架
 - `raw-sources/`：放原始资料入口与归档层
-- `wiki/`：放结构化 Wiki 页面与分析产物
+- `wiki/`：放结构化 Wiki 页面、来源记录页与分析产物
 - `scripts/`：放导入、处理、索引与通用工具脚本
 - `config/`：放项目配置文件
 - `logs/`：放运行日志与检查记录
@@ -28,9 +28,9 @@
 mna-wiki/
 ├─ README.md
 ├─ docs/
-│  ├─ 00-foundation/
-│  ├─ 01-planning/
-│  └─ 02-design/
+│  ├─ foundation/
+│  ├─ planning/
+│  └─ design/
 ├─ rules/
 │  ├─ schema/
 │  ├─ rulebooks/
@@ -46,6 +46,7 @@ mna-wiki/
 ├─ wiki/
 │  ├─ cases/
 │  ├─ concepts/
+│  ├─ sources/
 │  ├─ indexes/
 │  └─ analysis/
 ├─ scripts/
@@ -55,3 +56,4 @@ mna-wiki/
 │  └─ utilities/
 ├─ config/
 └─ logs/
+```
