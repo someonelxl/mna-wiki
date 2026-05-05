@@ -124,8 +124,14 @@ Twitter 原本是公开市场上的上市公司，因此马斯克面对的不是
 - 后续对私有化完成结果的正式报道
 
 ### 当前来源入口
-- `SRC-001`：待补
-- `RAW-001`：待补
+- `SRC-001`：`wiki/sources/src-001-cnn-twitter-deal-close.md`
+- `RAW-001`：`raw-sources/cases/raw-001-cnn-twitter-deal-close.md`
+- `SRC-002`：`wiki/sources/src-002-twitter-purported-termination.md`
+- `RAW-002`：`raw-sources/cases/raw-002-twitter-purported-termination.md`
+
+说明：
+- `SRC-001` / `RAW-001` 主要支持交易完成 / 交割完成相关事实。
+- `SRC-002` / `RAW-002` 主要支持 2022-07-08 终止争议、强制履行和交易确定性博弈相关事实。
 
 ## 当前结论
 马斯克收购 Twitter 这一 Case 的真正价值，不在于“买了一家公司”，而在于：

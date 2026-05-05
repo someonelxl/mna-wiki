@@ -52,7 +52,8 @@
 
 | source_id | title | source_type | author_or_publisher | published_at | linked_objects |
 |---|---|---|---|---|---|
-| 待补 | 待补 | 待补 | 待补 | 待补 | 待补 |
+| `SRC-001` | Twitter confirms completion of Elon Musk's $44 billion acquisition deal | web / news report | Clare Duffy and Donie O'Sullivan, CNN | 2022-10-28 | `CASE-001`｜马斯克收购 Twitter |
+| `SRC-002` | DEFA14A / Form 8-K: Twitter response to purported termination of merger agreement | SEC PDF / filing | Twitter, Inc. / U.S. Securities and Exchange Commission | 2022-07-11 | `CASE-001`｜马斯克收购 Twitter |
 
 ## 待扩展区
 后续可扩展但当前阶段不急于加入的维度：
